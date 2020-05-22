@@ -6,6 +6,8 @@ body {
 }
 
 main {
+    margin: 0 auto;
+    margin-bottom: 25px;
     background-image: url(./space.jpg);
     background-size: cover;
     display: flex;
@@ -13,24 +15,23 @@ main {
     justify-content: center;
     height: 450px;
     font-size: 30px;
-    margin-bottom: 20px;
 }
 
 section {
     background-color: #e6e6e6;
     height: 324px;
     display: flex;
-    padding-left: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
 article {
    width: 270px;
+   height: 374px;
+   padding-left: 20px;
 }
 
-.center-article {
-    padding-right: 20px;
-    padding-left: 20px;
-}
 h1 {
     color: white;
 }
